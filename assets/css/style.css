@@ -4,8 +4,44 @@
     color: black;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Header Styles Start */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: rgba(61, 63, 63, 0.5);
+    font-family: monospace, Lucida Console, sans-serif;
+    align-items: center;
+}
+
+header h1 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+header nav ul li a {
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255)
+}
+
+
+/* Hero Styles Start */
 .hero {
     height: 300px;
     width: 100%;
@@ -20,4 +56,24 @@
     text-align: center;
     vertical-align: middle;
     display: flex;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+footer ul li {
+    padding: 10px 15px;
 }
