@@ -9,7 +9,7 @@
 .hero {
     height: 300px;
     width: 100%;
-    background-image: url(./assets/tie-dye.jpg);
+    background-image: url(../images/tie-dye.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
