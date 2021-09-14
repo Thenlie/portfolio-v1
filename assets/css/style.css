@@ -48,34 +48,6 @@ header nav ul li a:hover {
     color: rgb(0, 0, 0)
 }
 
-
-/* Hero Styles Start */
-.hero {
-    height: 250px;
-    width: 100%;
-    background-image: url(../images/tie-dye.jpg);
-    background-size: cover;
-    background-position: 0 -200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    background-attachment: fixed;
-}
-
-.hero h2 {
-    color: black;
-    margin-top: auto;
-    font-family: monospace, Lucida Console, sans-serif;
-}
-
-/* Work Styles Start */
-.scroll-test {
-    height: 800px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: royalblue;
-}
-
 /*Footer Styles Start */
 footer {
     display: flex;
@@ -96,3 +68,94 @@ footer ul {
 footer ul li {
     padding: 10px 15px;
 }
+
+/* Hero Styles Start */
+.hero {
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/tie-dye.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-attachment: fixed;
+}
+
+.hero h2 {
+    color: black;
+    margin-top: auto;
+    font-family: monospace, Lucida Console, sans-serif;
+}
+
+/* H3 Styles Start */
+h3 {
+    font-size: 36px;
+    color: rgb(21, 28, 94);
+    width: 200px;
+    border-right: 2px solid rgb(21, 28, 94);
+    text-align: right;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+/* About Me Styles Start */
+.about {
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+.about p {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+
+
+/* Work Styles Start */
+.work {
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+.projects {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+.project1 {
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid black;
+}
+
+.project2 {
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid black;
+}
+
+.project3 {
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid black;
+}
+
+.project4 {
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid black;
+}
+
+.run-buddy {
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid black;
+}
+
