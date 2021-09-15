@@ -108,6 +108,9 @@ h3 {
 }
 */
 .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 85%;
     padding: 10px 15px;
     border: 1px solid green;
@@ -124,30 +127,38 @@ h3 {
 .project2 {
     position: relative;
     padding: 10px 15px;
-    margin: 10px 15px;
+    margin: 10px 10px;
     border: 1px solid red;
+    width: 25%;
+    height: 200px;
 }
 
 .project3 {
     position: relative;
     padding: 10px 15px;
-    margin: 10px 15px;
+    margin: 10px 10px;
     border: 1px solid red;
+    width: 25%;
+    height: 200px;
 }
 
 
 .project4 {
     position: relative;
     padding: 10px 15px;
-    margin: 10px 15px;
+    margin: 10px 10px;
     border: 1px solid red;
+    width: 45%;
+    height: 200px;
 }
 
 .run-buddy {
     position: relative;
     padding: 10px 15px;
-    margin: 10px 15px;
+    margin: 10px 10px;
     border: 1px solid red;
+    width: 45%;
+    height: 200px;
 }
 
 
@@ -215,6 +226,7 @@ h3 {
     opacity: 1;
 }
 
+/* Text Inside Project Images */
 #work .content div {
     position: relative;
     color: black;
