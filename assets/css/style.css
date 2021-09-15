@@ -94,7 +94,7 @@ h3 {
 }
 
 /* About Me Styles Start */
-.about p {
+#about .content p {
     padding: 10px 15px;
     border: 1px solid red;
 }
@@ -115,32 +115,54 @@ h3 {
 }
 
 .project1 {
-    padding: 10%;
-
+    padding: 10px 15px;
+    margin: 10px 15px;
     border: 1px solid red;
 }
 
 .project2 {
-    padding: 10%;
-
+    background-image: url(../images/led-wall.webp);
+    padding: 10px 15px;
+    margin: 10px 15px;
     border: 1px solid red;
 }
 
 .project3 {
-    padding: 10%;
-
+    position: relative;
+    padding: 10px 15px;
+    margin: 10px 15px;
     border: 1px solid red;
 }
 
-.project4 {
-    padding: 10%;
+.project3::before {
+    content: "";
+    background-image: url(../images/numbers.jpg);
+    opacity: 0.75;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
 
+#work .content div {
+    position: relative;
+    color: black;
+    font-size: 24px;
+    border: solid 1px black;
+}
+.project4 {
+    background-image: url(../images/puzzle.jpg);
+    padding: 10px 15px;
+    margin: 10px 15px;
     border: 1px solid red;
 }
 
 .run-buddy {
-    padding: 10%;
-
+    background-image: url(../images/run-buddy-img.PNG);
+    padding: 10px 15px;
+    margin: 10px 15px;
     border: 1px solid red;
 }
 
