@@ -111,8 +111,9 @@ h3 {
     width: 85%;
     padding: 10px 15px;
     border: 1px solid green;
-    
 }
+
+
 
 .project1 {
     padding: 10px 15px;
@@ -121,7 +122,7 @@ h3 {
 }
 
 .project2 {
-    background-image: url(../images/led-wall.webp);
+    position: relative;
     padding: 10px 15px;
     margin: 10px 15px;
     border: 1px solid red;
@@ -132,6 +133,38 @@ h3 {
     padding: 10px 15px;
     margin: 10px 15px;
     border: 1px solid red;
+}
+
+
+.project4 {
+    position: relative;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid red;
+}
+
+.run-buddy {
+    position: relative;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid red;
+}
+
+
+.project2::before {
+    content: "";
+    background-image: url(../images/led-wall.webp);
+    opacity: 0.75;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.project2:hover::before {
+    opacity: 1;
 }
 
 .project3::before {
@@ -146,24 +179,48 @@ h3 {
     left: 0px;
 }
 
+.project3:hover::before {
+    opacity: 1;
+}
+
+.project4::before {
+    content: "";
+    background-image: url(../images/puzzle.jpg);
+    opacity: 0.75;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.project4:hover::before {
+    opacity: 1;
+}
+
+.run-buddy::before {
+    content: "";
+    background-image: url(../images/run-buddy-img.PNG);
+    opacity: 0.75;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.run-buddy:hover::before {
+    opacity: 1;
+}
+
 #work .content div {
     position: relative;
     color: black;
     font-size: 24px;
+    font-family: monospace, Monaco, sans-serif;
     border: solid 1px black;
-}
-.project4 {
-    background-image: url(../images/puzzle.jpg);
-    padding: 10px 15px;
-    margin: 10px 15px;
-    border: 1px solid red;
-}
-
-.run-buddy {
-    background-image: url(../images/run-buddy-img.PNG);
-    padding: 10px 15px;
-    margin: 10px 15px;
-    border: 1px solid red;
 }
 
 /*Footer Styles Start */
