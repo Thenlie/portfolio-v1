@@ -101,7 +101,7 @@ h3 {
 #work .content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     width: 85%;
     padding: 10px 10px;
 }
@@ -121,7 +121,7 @@ h3 {
     padding: 10px 15px;
     margin: 10px 10px;
     border: 3px solid lightblue;
-    width: 47%;
+    width: 48.5%;
     height: 200px;
     border-radius: 22px;
 }
