@@ -107,7 +107,7 @@ h3 {
     margin: 10px 15px;
 }
 */
-.projects {
+#work .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -115,8 +115,6 @@ h3 {
     padding: 10px 15px;
     border: 1px solid green;
 }
-
-
 
 .project1 {
     padding: 10px 15px;
@@ -129,7 +127,7 @@ h3 {
     padding: 10px 15px;
     margin: 10px 10px;
     border: 1px solid red;
-    width: 25%;
+    width: 45%;
     height: 200px;
 }
 
@@ -138,7 +136,7 @@ h3 {
     padding: 10px 15px;
     margin: 10px 10px;
     border: 1px solid red;
-    width: 25%;
+    width: 45%;
     height: 200px;
 }
 
