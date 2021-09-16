@@ -90,13 +90,11 @@ h3 {
 .content {
     width: 85%;
     padding: 15px;
-    border: 1px solid green;
 }
 
 /* About Me Styles Start */
 #about .content p {
     padding: 10px 15px;
-    border: 1px solid red;
 }
 
 /* Work Styles Start  */
@@ -106,7 +104,6 @@ h3 {
     justify-content: space-between;
     width: 85%;
     padding: 10px 10px;
-    border: 1px solid green;
 }
 
 .project1 {
@@ -233,13 +230,24 @@ footer ul {
     justify-content: right;
     align-items: center;
     padding: 10px 15px;
-    border: 1px solid green;
     width: 85%;
 }
 
 footer ul li {
+    margin: 10px;
     padding: 10px 15px;
-    border: 1px solid red;
+    background-color: lightblue;
+    border: 3px solid lightblue;
+    border-radius: 20px;
+}
+
+footer ul li:hover{
+    background-color: lightskyblue;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-family: monospace, Monaco, sans-serif;
 }
 
 @media screen and (max-width: 980px) {
