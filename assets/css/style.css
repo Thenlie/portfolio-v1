@@ -100,13 +100,6 @@ h3 {
 }
 
 /* Work Styles Start  */
-/* .work {
-    display: flex;
-    width: 100%;
-    padding: 10px 15px;
-    margin: 10px 15px;
-}
-*/
 #work .content {
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +118,7 @@ h3 {
     height: 400px;
 }
 
-.project2 {
+.content article:not(:first-child) {
     position: relative;
     padding: 10px 15px;
     margin: 10px 10px;
@@ -134,32 +127,8 @@ h3 {
     height: 200px;
 }
 
-.project3 {
-    position: relative;
-    padding: 10px 15px;
-    margin: 10px 10px;
-    border: 1px solid red;
-    width: 47%;
-    height: 200px;
-}
-
-
-.project4 {
-    position: relative;
-    padding: 10px 15px;
-    margin: 10px 10px;
-    border: 1px solid red;
-    width: 47%;
-    height: 200px;
-}
-
-.run-buddy {
-    position: relative;
-    padding: 10px 15px;
-    margin: 10px 10px;
-    border: 1px solid red;
-    width: 47%;
-    height: 200px;
+.content article:hover::before {
+    opacity: 1;
 }
 
 .project1::before {
@@ -174,10 +143,6 @@ h3 {
     left: 0px;
 }
 
-.project1:hover::before {
-    opacity: 1;
-}
-
 .project2::before {
     content: "";
     background-image: url(../images/led-wall.webp);
@@ -188,10 +153,6 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
-}
-
-.project2:hover::before {
-    opacity: 1;
 }
 
 .project3::before {
@@ -206,10 +167,6 @@ h3 {
     left: 0px;
 }
 
-.project3:hover::before {
-    opacity: 1;
-}
-
 .project4::before {
     content: "";
     background-image: url(../images/puzzle.jpg);
@@ -220,10 +177,6 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
-}
-
-.project4:hover::before {
-    opacity: 1;
 }
 
 .run-buddy::before {
@@ -238,12 +191,8 @@ h3 {
     left: 0px;
 }
 
-.run-buddy:hover::before {
-    opacity: 1;
-}
-
 /* Text Inside Project Images */
-#work .content div {
+.section .content div {
     position: relative;
     color: black;
     font-size: 24px;
