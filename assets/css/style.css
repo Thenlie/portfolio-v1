@@ -70,9 +70,10 @@ header nav ul li a:hover {
 /* H3 Styles Start */
 h3 {
     font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(21, 28, 94);
     width: 15%;
-    border: 2px solid rgb(21, 28, 94);
+    border-right: 2px solid rgb(21, 28, 94);
     text-align: right;
     padding: 10px 15px;
     padding-right: 10px;
@@ -84,7 +85,6 @@ h3 {
     display: flex;
     width: 100%;
     padding: 10px 15px;
-    border: 1px solid blue;
 }
 
 .content {
@@ -105,7 +105,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 85%;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: 1px solid green;
 }
 
@@ -113,21 +113,23 @@ h3 {
     position: relative;
     padding: 10px 15px;
     margin: 10px 15px;
-    border: 1px solid red;
+    border: 3px solid lightblue;
     width: 100%;
     height: 400px;
+    border-radius: 22px;
 }
 
-.content article:not(:first-child) {
+.content a:not(:first-child) {
     position: relative;
     padding: 10px 15px;
     margin: 10px 10px;
-    border: 1px solid red;
+    border: 3px solid lightblue;
     width: 47%;
     height: 200px;
+    border-radius: 22px;
 }
 
-.content article:hover::before {
+.content a:hover::before {
     opacity: 1;
 }
 
@@ -141,6 +143,7 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
+    border-radius: 20px;
 }
 
 .project2::before {
@@ -153,6 +156,7 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
+    border-radius: 20px;
 }
 
 .project3::before {
@@ -165,6 +169,7 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
+    border-radius: 20px;
 }
 
 .project4::before {
@@ -177,6 +182,7 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
+    border-radius: 20px;
 }
 
 .run-buddy::before {
@@ -189,6 +195,7 @@ h3 {
     right: 0px;
     bottom: 0px;
     left: 0px;
+    border-radius: 20px;
 }
 
 /* Text Inside Project Images */
@@ -196,9 +203,10 @@ h3 {
     position: absolute;
     bottom: 25px;
     left: 0px;
-    border: solid 1px black;
     background-color: lightblue;
     padding: 10px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .section .content h4 {
