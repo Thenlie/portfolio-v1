@@ -193,11 +193,23 @@ h3 {
 
 /* Text Inside Project Images */
 .section .content div {
-    position: relative;
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    border: solid 1px black;
+    background-color: lightblue;
+    padding: 10px 15px;
+}
+
+.section .content h4 {
     color: black;
     font-size: 24px;
     font-family: monospace, Monaco, sans-serif;
-    border: solid 1px black;
+}
+
+.section .content span {
+    font-size: 16px;
+    font-family: monospace, Monaco, sans-serif;
 }
 
 /*Footer Styles Start */
