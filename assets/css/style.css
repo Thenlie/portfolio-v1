@@ -118,10 +118,11 @@ h3 {
 
 .content a:not(:first-child) {
     position: relative;
+    flex-grow: 1;
     padding: 10px 15px;
     margin: 10px 10px;
     border: 3px solid lightblue;
-    width: 48.5%;
+    width: 45%;
     height: 200px;
     border-radius: 22px;
 }
@@ -252,10 +253,7 @@ footer ul li a {
 
 @media screen and (max-width: 980px) {
     h3 {
-        padding: 0 0 10px 0;
         font-size: 24px;
-        margin: 2px;
-        max-width: 100px;
     }
 
     .section {
@@ -264,18 +262,23 @@ footer ul li a {
 
     }
 
+    .content a:not(:first-child) {
+        width: 100%;
+        
+    }
 }
 
 @media screen and (max-width: 768px) {
     h3 {
-        padding: 0 0 10px 0;
         font-size: 18px;
-        margin: 1px;
-        max-width: 20px;
     }
 
     .section {
         padding: 0 0 10px 0;
         margin: 2px;
     }
+}
+
+@media screen and (max-width: 980px) {
+
 }
