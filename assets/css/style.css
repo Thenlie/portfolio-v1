@@ -69,7 +69,7 @@ header nav ul li a:hover {
 
 /* H3 Styles Start */
 h3 {
-    font-size: 36px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(21, 28, 94);
     width: 15%;
@@ -227,8 +227,9 @@ footer {
 
 footer ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    justify-content: right;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 15px;
     width: 85%;
@@ -270,15 +271,37 @@ footer ul li a {
 
 @media screen and (max-width: 768px) {
     h3 {
+        text-align: center;
         font-size: 18px;
+        border-bottom: 2px solid rgb(21, 28, 94);
+        border-right: none;
+        margin: 0 auto;
     }
 
     .section {
-        padding: 0 0 10px 0;
+        display: block;
         margin: 2px;
+    }
+
+    .content {
+        width:100%;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    #work .content {
+        width: 100%;
+    }
+
+    footer ul {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 980px) {
-
+@media screen and (max-width: 575px) {
+    h3 {
+        color: red;
+    }
 }
