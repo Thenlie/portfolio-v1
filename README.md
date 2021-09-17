@@ -6,5 +6,5 @@ Created throughout the University of Utah's web development coding bootcamp.
 * CSS
 
 ## Links:
-You can find a link to the live webpage here.
-You can find the GitHub repo at LINK. 
+You can find a link to the live webpage [here.](https://thenlie.github.io/portfolio/)
+You can find the GitHub repo at https://github.com/Thenlie/portfolio
