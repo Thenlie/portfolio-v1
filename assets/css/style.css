@@ -67,6 +67,15 @@ header nav ul li a:hover {
     font-family: monospace, Lucida Console, sans-serif;
 }
 
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid lightblue;
+    margin-right: 80%;
+    margin-top: auto;
+}
+
 /* H3 Styles Start */
 h3 {
     font-size: 30px;
@@ -101,7 +110,6 @@ h3 {
 #work .content {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
     width: 85%;
     padding: 10px 10px;
 }
@@ -252,6 +260,7 @@ footer ul li a {
     font-family: monospace, Monaco, sans-serif;
 }
 
+/* Media Queries */
 @media screen and (max-width: 980px) {
     h3 {
         font-size: 24px;
@@ -273,6 +282,15 @@ footer ul li a {
 
     header {
         justify-content: center;
+    }
+
+    .hero {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero img {
+        margin: 0 auto;
     }
 }
 
@@ -314,6 +332,6 @@ footer ul li a {
 
 @media screen and (max-width: 575px) {
     .hero h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
