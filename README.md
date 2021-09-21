@@ -14,4 +14,4 @@ You can find the GitHub repo at https://github.com/Thenlie/portfolio</p>
 
 ### Screenshot:
 
-![Screenshot of Leithen's portfolio](https://github.com/Thenlie/portfolio/blob/main/assets/images/wave.png)
+![Screenshot of Leithen's portfolio](https://github.com/Thenlie/portfolio/blob/main/assets/images/screenshot.png)
