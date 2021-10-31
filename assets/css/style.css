@@ -141,7 +141,7 @@ h3 {
 
 .project1::before {
     content: "";
-    background-image: url(../images/wave.png);
+    background-image: url(../images/project.PNG);
     opacity: 0.75;
     background-size: cover;
     position: absolute;
