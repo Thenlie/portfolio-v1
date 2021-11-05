@@ -71,7 +71,7 @@ header nav ul li a:hover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid lightblue;
+    border: 3px solid rgba(0, 0, 0, 0.5);
     margin-right: 85%;
     margin-top: auto;
 }
@@ -80,9 +80,9 @@ header nav ul li a:hover {
 h3 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(21, 28, 94);
+    color: rgb(0, 0, 0);
     width: 15%;
-    border-right: 2px solid rgb(21, 28, 94);
+    border-right: 2px solid rgb(0, 0, 0);
     text-align: right;
     padding: 10px 15px;
     padding-right: 10px;
@@ -90,6 +90,10 @@ h3 {
 }
 
 /* General Section Styles Start */
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .section {
     display: flex;
     width: 100%;
@@ -118,7 +122,7 @@ h3 {
     position: relative;
     padding: 10px 15px;
     margin: 10px 15px;
-    border: 3px solid lightblue;
+    border: 3px solid rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 400px;
     border-radius: 22px;
@@ -129,79 +133,39 @@ h3 {
     flex-grow: 1;
     padding: 10px 15px;
     margin: 10px 10px;
-    border: 3px solid lightblue;
+    border: 3px solid rgba(0, 0, 0, 0.5);
     width: 45%;
     height: 200px;
     border-radius: 22px;
 }
 
-.content a:hover::before {
+.content a:hover {
     opacity: 1;
 }
 
-.project1::before {
-    content: "";
+.content a {
+    opacity: 0.75;
+}
+
+/* Project Background Images */
+.project1 {
     background-image: url(../images/project.PNG);
-    opacity: 0.75;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-radius: 20px;
 }
 
-.project2::before {
-    content: "";
+.project2 {
     background-image: url(../images/led-wall.webp);
-    opacity: 0.75;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-radius: 20px;
 }
 
-.project3::before {
-    content: "";
+.project3 {
     background-image: url(../images/numbers.jpg);
-    opacity: 0.75;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-radius: 20px;
 }
 
-.project4::before {
-    content: "";
+.project4 {
     background-image: url(../images/puzzle.jpg);
-    opacity: 0.75;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-radius: 20px;
 }
 
-.run-buddy::before {
-    content: "";
+.run-buddy {
     background-image: url(../images/run-buddy-img.PNG);
-    opacity: 0.75;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    border-radius: 20px;
 }
 
 /* Text Inside Project Images */
@@ -209,19 +173,20 @@ h3 {
     position: absolute;
     bottom: 25px;
     left: 0px;
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
     padding: 10px 15px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
 .section .content h4 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     font-family: monospace, Monaco, sans-serif;
 }
 
 .section .content span {
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-family: monospace, Monaco, sans-serif;
 }
@@ -231,6 +196,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 footer ul {
@@ -246,16 +212,17 @@ footer ul {
 footer ul li {
     margin: 10px;
     padding: 10px 15px;
-    background-color: lightblue;
-    border: 3px solid lightblue;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
 
 footer ul li:hover{
-    background-color: lightskyblue;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer ul li a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: monospace, Monaco, sans-serif;
 }
