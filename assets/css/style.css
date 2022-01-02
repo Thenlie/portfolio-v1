@@ -205,22 +205,20 @@ footer ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 10px 15px;
     width: 85%;
 }
 
 footer ul li {
-    margin: 10px;
-    padding: 10px 15px;
-    background-color: rgb(0, 0, 0);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 footer ul li:hover{
-    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
 }
 
 footer ul li a {
