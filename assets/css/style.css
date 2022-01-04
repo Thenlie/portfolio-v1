@@ -151,7 +151,7 @@ body {
 
 /* Project Background Images */
 .project1 {
-    background-image: url(../images/project.PNG);
+    background-image: url(../images/no1fan.png);
 }
 
 .project2 {
@@ -163,7 +163,7 @@ body {
 }
 
 .project4 {
-    background-image: url(../images/puzzle.jpg);
+    background-image: url(../images/project.PNG);
 }
 
 .run-buddy {
